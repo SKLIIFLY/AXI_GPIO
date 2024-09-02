@@ -1,0 +1,418 @@
+20:54:51 **** Build of project AXI_GPIO_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project AXI_GPIO ****
+
+Nothing to build for project AXI_GPIO
+20:56:17 **** Build of configuration Debug for project AXI_GPIO_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xgpio_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+'Finished building: ../src/xgpio_example.c'
+' '
+'Building target: AXI_GPIO_bsp_xgpio_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO_bsp_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_GPIO_bsp_xgpio_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_GPIO_bsp_xgpio_example_1.elf  |tee "AXI_GPIO_bsp_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1172	  22600	  47420	   b93c	AXI_GPIO_bsp_xgpio_example_1.elf
+'Finished building: AXI_GPIO_bsp_xgpio_example_1.elf.size'
+' '
+21:00:04 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:01:20 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:01:54 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:13:04 **** Clean-only build of configuration Debug for project AXI_GPIO ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/main.o  ./src/COMMON.d ./src/main.d  AXI_GPIO.elf.size  AXI_GPIO.elf
+' '
+21:13:05 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:13:42 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../AXI_GPIO/AXI_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"AXI_GPIO/AXI_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"AXI_GPIO/AXI_GPIO.d" -MT"AXI_GPIO/AXI_GPIO.o" -o "AXI_GPIO/AXI_GPIO.o" "../AXI_GPIO/AXI_GPIO.c"
+'Finished building: ../AXI_GPIO/AXI_GPIO.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:13:54 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:28:28 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:28:31 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:32:22 **** Clean-only build of configuration Debug for project AXI_GPIO ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o  ./src/COMMON.d ./src/main.d  ./AXI_GPIO/AXI_GPIO.d  AXI_GPIO.elf.size  AXI_GPIO.elf
+' '
+21:32:22 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../AXI_GPIO/AXI_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"AXI_GPIO/AXI_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"AXI_GPIO/AXI_GPIO.d" -MT"AXI_GPIO/AXI_GPIO.o" -o "AXI_GPIO/AXI_GPIO.o" "../AXI_GPIO/AXI_GPIO.c"
+'Finished building: ../AXI_GPIO/AXI_GPIO.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:32:50 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../AXI_GPIO_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [AXI_GPIO.elf] ¥ÌŒÛ 1
+21:32:51 **** Incremental Build of configuration Debug for project AXI_GPIO_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:33:48 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_GPIO.elf  |tee "AXI_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19048	   1148	  22568	  42764	   a70c	AXI_GPIO.elf
+'Finished building: AXI_GPIO.elf.size'
+' '
+21:33:51 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:33:52 **** Incremental Build of configuration Debug for project AXI_GPIO_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:34:10 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../AXI_GPIO/AXI_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"AXI_GPIO/AXI_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"AXI_GPIO/AXI_GPIO.d" -MT"AXI_GPIO/AXI_GPIO.o" -o "AXI_GPIO/AXI_GPIO.o" "../AXI_GPIO/AXI_GPIO.c"
+'Finished building: ../AXI_GPIO/AXI_GPIO.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_GPIO.elf  |tee "AXI_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20328	   1164	  22600	  44092	   ac3c	AXI_GPIO.elf
+'Finished building: AXI_GPIO.elf.size'
+' '
+22:56:07 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:16:2: error: unknown type name '_uint32_t'
+  _uint32_t Status;
+  ^~~~~~~~~
+../src/main.c:18:2: warning: implicit declaration of function 'AXI_GPIO_Set_Channel' [-Wimplicit-function-declaration]
+  AXI_GPIO_Set_Channel(&AXI_GPIO0,1, 0xFF, 0);   // Ω´Õ®µ¿1…Ë÷√Œ™ ‰»Î
+  ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] ¥ÌŒÛ 1
+22:56:18 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:16:2: error: unknown type name '_uint32_t'
+  _uint32_t Status;
+  ^~~~~~~~~
+../src/main.c:18:2: warning: implicit declaration of function 'AXI_GPIO_Set_Channel' [-Wimplicit-function-declaration]
+  AXI_GPIO_Set_Channel(&AXI_GPIO0,1, 0xFF, 0);   // Ω´Õ®µ¿1…Ë÷√Œ™ ‰»Î
+  ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] ¥ÌŒÛ 1
+22:56:19 **** Incremental Build of configuration Debug for project AXI_GPIO_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:56:58 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:16:2: error: unknown type name '_uint32_t'
+  _uint32_t Status;
+  ^~~~~~~~~
+make: *** [src/main.o] ¥ÌŒÛ 1
+23:30:12 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../AXI_GPIO/AXI_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"AXI_GPIO/AXI_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"AXI_GPIO/AXI_GPIO.d" -MT"AXI_GPIO/AXI_GPIO.o" -o "AXI_GPIO/AXI_GPIO.o" "../AXI_GPIO/AXI_GPIO.c"
+'Finished building: ../AXI_GPIO/AXI_GPIO.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_GPIO.elf  |tee "AXI_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20400	   1164	  22600	  44164	   ac84	AXI_GPIO.elf
+'Finished building: AXI_GPIO.elf.size'
+' '
+23:30:22 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:30:23 **** Incremental Build of configuration Debug for project AXI_GPIO_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:30:32 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:32:33 **** Auto Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../AXI_GPIO_bsp/ps7_cortexa9_0/include -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\src" -I"E:\FPGA_class\PS\AXIGPIO\AXIGPIO.sdk\AXI_GPIO\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: AXI_GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_GPIO_bsp/ps7_cortexa9_0/lib -o "AXI_GPIO.elf"  ./src/COMMON.o ./src/main.o  ./AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_GPIO.elf  |tee "AXI_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20400	   1164	  22600	  44164	   ac84	AXI_GPIO.elf
+'Finished building: AXI_GPIO.elf.size'
+' '
+23:32:40 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:33:00 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:44:18 **** Incremental Build of configuration Debug for project AXI_GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
