@@ -1,7 +1,7 @@
 /*
  * main.c
  *
- *  Created on: 2024年9月1日
+ *  Created on: 2024锟斤拷9锟斤拷1锟斤拷
  *      Author: Liwei
  */
 
@@ -15,7 +15,7 @@ int main(void)
 {
 	uint32_t Status;
 	AXI_GPIO_Init(&AXI_GPIO0,GPIO_0_ID);
-	AXI_GPIO_Set_Channel(&AXI_GPIO0,2, 0xFF, 0);   // 将通道2设置为输入
+	AXI_GPIO_Set_Channel(&AXI_GPIO0,2, 0xFF, 0);   // 锟斤拷通锟斤拷2锟斤拷锟斤拷为锟斤拷锟斤拷
 
 	while(1)
 	{
@@ -25,3 +25,4 @@ int main(void)
 	return 0;
 }
 
+// 鍒╃敤AXI_GPIO绔彛閰嶅悎鎸夐敭瀹炵幇LED鐨勭偣浜笌鐔勭伃
