@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}\\**",
+                "E:\\Liwei\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "E:\\FPGA_class\\PS\\AXIGPIO\\AXIGPIO.sdk\\AXI_GPIO\\src\\",
+                "E:\\FPGA_class\\PS\\AXIGPIO\\AXIGPIO.sdk\\AXI_GPIO\\AXI_GPIO\\"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}

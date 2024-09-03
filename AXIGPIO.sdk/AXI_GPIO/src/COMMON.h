@@ -1,7 +1,7 @@
 /*
  * COMMON.h
  *
- *  Created on: 2024年9月1日
+ *  Created on: 2024锟斤拷9锟斤拷1锟斤拷
  *      Author: Liwei
  */
 
@@ -9,7 +9,7 @@
 #define ACZ702_LIB_COMMON_H_
 
 
-//系统头文件
+//系统头锟侥硷拷
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -17,7 +17,7 @@
 #include <stdarg.h>
 #include <stdint.h>
 
-//Xilinx头文件
+//Xilinx头锟侥硷拷
 #include "xil_types.h"
 #include "xil_cache.h"
 #include "sleep.h"
@@ -27,26 +27,26 @@
 #include "xscutimer.h"
 
 
-//ACZ702头文件
+//ACZ702头锟侥硷拷
 //#include "ISR.h"
 //#include "SCU_GIC.h"
 //#include "SCU_TIMER.h"
 
 #include "AXI_GPIO.h"
 
-//用户头文件
+//锟矫伙拷头锟侥硷拷
 
 
 
-//用户宏定义
-#define	CPU_CLK_HZ	XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ	//CPU时钟频率(单位Hz)
+//锟矫伙拷锟疥定锟斤拷
+#define	CPU_CLK_HZ	XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ	//CPU时锟斤拷频锟斤拷(锟斤拷位Hz)
 #define INPUT		1
 #define OUTPUT		0
 #define	REG8		8
 #define	REG16		16
 
 #define GPIO_0_ID XPAR_AXI_GPIO_0_DEVICE_ID
-//用户声明引用
+//锟矫伙拷锟斤拷锟斤拷锟斤拷锟斤拷
 
 #endif /* ACZ702_LIB_COMMON_H_ */
 

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Sep  2 23:11:38 2024
+# Process ID: 25876
+# Current directory: E:/FPGA_class/PS/AXIGPIO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35964 E:\FPGA_class\PS\AXIGPIO\AXIGPIO.xpr
+# Log file: E:/FPGA_class/PS/AXIGPIO/vivado.log
+# Journal file: E:/FPGA_class/PS/AXIGPIO\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA_class/PS/AXIGPIO/AXIGPIO.xpr
+update_compile_order -fileset sources_1
